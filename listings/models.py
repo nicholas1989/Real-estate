@@ -7,7 +7,7 @@ class Listing(models.Model):
     price = models.IntegerField()
     square_footage = models.IntegerField()
     num_rooms = models.IntegerField()
-    # image
+    image = models.ImageField()
     
     
     def __str__(self):

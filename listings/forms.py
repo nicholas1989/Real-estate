@@ -10,5 +10,6 @@ class ListingForm(ModelForm):
             "address",
             "price",
             "square_footage",
-            "num_rooms"
+            "num_rooms",
+            "image"
         ]
